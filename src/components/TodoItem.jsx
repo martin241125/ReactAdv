@@ -1,10 +1,10 @@
 import React from 'react'
 
-const TodoItem = () => {
+const TodoItem = ({tarea, completed}) => {
   return (
     <li>
         <span>V</span>
-        <p>Llorar con la Llorona</p>
+        <p>{tarea}</p>
         <span>X</span>
     </li>
   )

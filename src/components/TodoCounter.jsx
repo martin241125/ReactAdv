@@ -1,12 +1,12 @@
 import React from 'react'
 
-const TodoCounter = () => {
+const TodoCounter = ({total, completed}) => {
   return (
-    <div>
+    <>
       <h1>
-        Has completado 3 de 5 TODOS
+        Has completado {completed} de {total} TODOS
       </h1>
-    </div>
+    </>
   )
 }
 
