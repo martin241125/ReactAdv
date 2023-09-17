@@ -18,6 +18,12 @@ function App() {
   },
   {
     tarea: 'Limpiar el baño', completed: true
+  },
+  {
+    tarea: 'reparar PC', completed: true
+  },
+  {
+    tarea: 'Cambiar driver PC', completed: true
   }]
   return (
     <div className="App">
