@@ -1,9 +1,9 @@
 .container{
     background-color: rgba(4, 142, 255, 0.432);
-    width: 350px;
+    width: 400px;
     height: 100px;
     border-radius: 15px;
-    padding: 1px;
+    
     border: 2px solid rgb(230, 205, 212);
     box-shadow: -2px 3px 10px rgb(228, 0, 78);
 }

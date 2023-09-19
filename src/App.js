@@ -11,7 +11,7 @@ function App() {
     tarea: 'Cortar Cebolla', completed: true
   },
   {
-    tarea: 'Barrer la cocina', completed: true
+    tarea: 'Barrer la cocina', completed: false
   },
   {
     tarea: 'Bañar a josefina', completed: false

@@ -1,13 +1,19 @@
-import React from 'react'
+import './style/TodoItem.css';
 
-const TodoItem = ({tarea, completed}) => {
+function TodoItem(props) {
   return (
-    <li>
-        <span>V</span>
-        <p>{tarea}</p>
-        <span>X</span>
+    <li className="TodoItem">
+      <span className={`Icon Icon-check ${props.completed && "Icon-check--active"}`}>
+        V
+      </span>
+      <p className={`TodoItem-p ${props.completed && "TodoItem-p--complete"}`}>
+        {props.tarea}
+      </p>
+      <span className="Icon Icon-delete">
+        X
+      </span>
     </li>
-  )
+  );
 }
 
-export default TodoItem
+export default TodoItem ;
